@@ -26,6 +26,8 @@ It’s especially good for:
    *"Before editing any file, read it completely."*
    → Without that, it tends to make mistakes while editing.
 
+5. in large context-window chats maybe you have to use: your_prompt + "Don't forget the 500 sentences"
+
 In my tests, it performed very well (on a small project with 500k of context → it solved issues that raw Gemini couldn’t handle *at all*, and I tried multiple times). I’d love to hear how those `systemInstructions` perform in your own tests.
 
 ---
